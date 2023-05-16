@@ -2,7 +2,7 @@
 # React Typescript Mock Coding Interview Template
 ## This is a React Typscript project template that can be used as a starting point for building tasks for an Junior/Mid interview.
 
-# Live Demo: https://react-mock-coding-interview.netlify.app/
+## Live Demo: Site Link: [https://react-mock-coding-interview.netlify.app](https://react-mock-coding-interview.netlify.app) 
 
 ## Template Powered By: 
 <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="drawing" width="100"/> <img 
