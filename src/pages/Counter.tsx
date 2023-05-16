@@ -1,24 +1,9 @@
 import "./shared.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState<number>(0);
   const [inputCount, setInputCount] = useState<string>("");
-  const [isCountLoaded, setIsCountLoaded] = useState<boolean>(false);
-
-  // Update local storage whenever count changes
-  useEffect(() => {
-    localStorage.setItem("count", String(count));
-  }, [count]);
-
-  // Retrieve count from local storage on component mount
-  useEffect(() => {
-    const storedCount = localStorage.getItem("count");
-    if (storedCount !== null) {
-      setCount(Number(storedCount));
-      setIsCountLoaded(true);
-    }
-  }, []);
 
   const handleCounter = (action: string) => {
     switch (action) {
@@ -40,11 +25,6 @@ const Counter = () => {
         break;
     }
   };
-
-  if (!isCountLoaded) {
-    // You can display a loading indicator or placeholder while the count is being retrieved
-    return <div>Loading...</div>;
-  }
 
   return (
     <div className="main">
