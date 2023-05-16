@@ -13,12 +13,13 @@
 - Task 3: Peoples API
 
 ## Screenshots
-
-<img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/1.jpg" alt="drawing" width="50%" height="50%" /> 
-<img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/2.jpg" alt="drawing" width="50%" height="50%" /> 
-<img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/3.jpg" alt="drawing" width="50%" height="50%" /> 
-<img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/4.jpg" alt="drawing" width="50%" height="50%" /> 
-<img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/5.jpg" alt="drawing" width="50%" height="50%" /> 
+<p float="left">
+  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/2.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/3.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/4.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/5.jpg" height=45% width=45% />
+</p>
 
 ##  Installation
 To set up the project, you'll need to have Node.js and npm installed on your machine. Once you have those, follow these steps:
