@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navigation from "./components/Navigation";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Counter from "./pages/Counter";
+import Dropdown from "./pages/Dropdown";
+import Home from "./pages/Home";
+import Peoples from "./pages/Peoples";
+import TodoList from "./pages/TodoList";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/counter" element={<Counter />} />
+          <Route path="/dropdown" element={<Dropdown />} />
+          <Route path="/todolist" element={<TodoList />} />
+          <Route path="/peoples" element={<Peoples />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
-
-export default App;
